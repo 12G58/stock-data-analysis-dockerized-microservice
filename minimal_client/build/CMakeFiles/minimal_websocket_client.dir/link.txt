@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/minimal_websocket_client.dir/link.d CMakeFiles/minimal_websocket_client.dir/main.cpp.o -o minimal_websocket_client

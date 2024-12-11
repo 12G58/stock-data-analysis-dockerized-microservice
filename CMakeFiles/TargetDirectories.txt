@@ -1,0 +1,7 @@
+/home/free/data-analytics-microservice/CMakeFiles/data-analytics-microservice.dir
+/home/free/data-analytics-microservice/CMakeFiles/edit_cache.dir
+/home/free/data-analytics-microservice/CMakeFiles/rebuild_cache.dir
+/home/free/data-analytics-microservice/CMakeFiles/list_install_components.dir
+/home/free/data-analytics-microservice/CMakeFiles/install.dir
+/home/free/data-analytics-microservice/CMakeFiles/install/local.dir
+/home/free/data-analytics-microservice/CMakeFiles/install/strip.dir
