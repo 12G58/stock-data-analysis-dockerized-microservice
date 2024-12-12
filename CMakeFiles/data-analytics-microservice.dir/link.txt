@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/data-analytics-microservice.dir/link.d "CMakeFiles/data-analytics-microservice.dir/src/main.cpp.o" "CMakeFiles/data-analytics-microservice.dir/src/data_fetcher.cpp.o" "CMakeFiles/data-analytics-microservice.dir/src/data_processor.cpp.o" -o data-analytics-microservice  -lcurl -ljsoncpp
