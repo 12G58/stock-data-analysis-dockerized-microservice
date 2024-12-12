@@ -1,0 +1,15 @@
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.cmake
+
+# Ignore build directories
+/build/
+/out/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
