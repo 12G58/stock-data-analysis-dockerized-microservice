@@ -11,8 +11,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.2/CMakeSystem.cmake"
-  "/usr/lib/cmake/websocketpp/websocketpp-config.cmake"
-  "/usr/lib/cmake/websocketpp/websocketpp-configVersion.cmake"
   "/usr/share/cmake/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"

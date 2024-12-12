@@ -1272,8 +1272,75 @@ CMakeFiles/data-analytics-microservice.dir/src/main.cpp.o: \
  /usr/include/boost/asio/windows/stream_handle.hpp \
  /usr/include/boost/asio/writable_pipe.hpp \
  /usr/include/boost/asio/write_at.hpp \
- /usr/include/boost/asio/impl/write_at.hpp /usr/local/include/crow/json.h \
- /usr/include/boost/lexical_cast.hpp \
+ /usr/include/boost/asio/impl/write_at.hpp \
+ /usr/include/boost/asio/ssl.hpp /usr/include/boost/asio/ssl/context.hpp \
+ /usr/include/boost/asio/ssl/context_base.hpp \
+ /usr/include/boost/asio/ssl/detail/openssl_types.hpp \
+ /usr/include/openssl/conf.h /usr/include/openssl/macros.h \
+ /usr/include/openssl/opensslconf.h /usr/include/openssl/configuration.h \
+ /usr/include/openssl/opensslv.h /usr/include/openssl/bio.h \
+ /usr/include/openssl/e_os2.h /usr/include/openssl/crypto.h \
+ /usr/include/c++/14.2.1/stdlib.h /usr/include/openssl/safestack.h \
+ /usr/include/openssl/stack.h /usr/include/openssl/types.h \
+ /usr/include/openssl/cryptoerr.h /usr/include/openssl/symhacks.h \
+ /usr/include/openssl/cryptoerr_legacy.h /usr/include/openssl/core.h \
+ /usr/include/openssl/bioerr.h /usr/include/openssl/lhash.h \
+ /usr/include/openssl/conferr.h /usr/include/openssl/conftypes.h \
+ /usr/include/openssl/ssl.h /usr/include/openssl/e_ostime.h \
+ /usr/include/openssl/comp.h /usr/include/openssl/comperr.h \
+ /usr/include/openssl/x509.h /usr/include/openssl/buffer.h \
+ /usr/include/openssl/buffererr.h /usr/include/openssl/evp.h \
+ /usr/include/openssl/core_dispatch.h /usr/include/openssl/indicator.h \
+ /usr/include/openssl/params.h /usr/include/openssl/bn.h \
+ /usr/include/openssl/bnerr.h /usr/include/openssl/evperr.h \
+ /usr/include/openssl/objects.h /usr/include/openssl/obj_mac.h \
+ /usr/include/openssl/asn1.h /usr/include/openssl/asn1err.h \
+ /usr/include/openssl/objectserr.h /usr/include/openssl/ec.h \
+ /usr/include/openssl/ecerr.h /usr/include/openssl/rsa.h \
+ /usr/include/openssl/rsaerr.h /usr/include/openssl/dsa.h \
+ /usr/include/openssl/dh.h /usr/include/openssl/dherr.h \
+ /usr/include/openssl/dsaerr.h /usr/include/openssl/sha.h \
+ /usr/include/openssl/x509err.h /usr/include/openssl/x509_vfy.h \
+ /usr/include/openssl/pkcs7.h /usr/include/openssl/pkcs7err.h \
+ /usr/include/openssl/http.h /usr/include/openssl/pem.h \
+ /usr/include/openssl/pemerr.h /usr/include/openssl/hmac.h \
+ /usr/include/openssl/async.h /usr/include/openssl/asyncerr.h \
+ /usr/include/openssl/ct.h /usr/include/openssl/cterr.h \
+ /usr/include/openssl/sslerr.h /usr/include/openssl/sslerr_legacy.h \
+ /usr/include/openssl/prov_ssl.h /usr/include/openssl/ssl2.h \
+ /usr/include/openssl/ssl3.h /usr/include/openssl/tls1.h \
+ /usr/include/openssl/dtls1.h /usr/include/openssl/srtp.h \
+ /usr/include/openssl/quic.h /usr/include/openssl/engine.h \
+ /usr/include/openssl/rand.h /usr/include/openssl/randerr.h \
+ /usr/include/openssl/ui.h /usr/include/openssl/uierr.h \
+ /usr/include/openssl/err.h /usr/include/openssl/engineerr.h \
+ /usr/include/openssl/x509v3.h /usr/include/openssl/x509v3err.h \
+ /usr/include/boost/asio/ssl/detail/openssl_init.hpp \
+ /usr/include/boost/asio/ssl/detail/impl/openssl_init.ipp \
+ /usr/include/boost/asio/ssl/detail/password_callback.hpp \
+ /usr/include/boost/asio/ssl/detail/verify_callback.hpp \
+ /usr/include/boost/asio/ssl/verify_context.hpp \
+ /usr/include/boost/asio/ssl/verify_mode.hpp \
+ /usr/include/boost/asio/ssl/impl/context.hpp \
+ /usr/include/boost/asio/ssl/impl/context.ipp \
+ /usr/include/boost/asio/ssl/error.hpp \
+ /usr/include/boost/asio/ssl/impl/error.ipp \
+ /usr/include/boost/asio/ssl/rfc2818_verification.hpp \
+ /usr/include/boost/asio/ssl/impl/rfc2818_verification.ipp \
+ /usr/include/boost/asio/ssl/host_name_verification.hpp \
+ /usr/include/boost/asio/ssl/impl/host_name_verification.ipp \
+ /usr/include/boost/asio/ssl/stream.hpp \
+ /usr/include/boost/asio/ssl/detail/buffered_handshake_op.hpp \
+ /usr/include/boost/asio/ssl/detail/engine.hpp \
+ /usr/include/boost/asio/ssl/stream_base.hpp \
+ /usr/include/boost/asio/ssl/detail/impl/engine.ipp \
+ /usr/include/boost/asio/ssl/detail/handshake_op.hpp \
+ /usr/include/boost/asio/ssl/detail/io.hpp \
+ /usr/include/boost/asio/ssl/detail/stream_core.hpp \
+ /usr/include/boost/asio/ssl/detail/read_op.hpp \
+ /usr/include/boost/asio/ssl/detail/shutdown_op.hpp \
+ /usr/include/boost/asio/ssl/detail/write_op.hpp \
+ /usr/local/include/crow/json.h /usr/include/boost/lexical_cast.hpp \
  /usr/include/boost/lexical_cast/detail/buffer_view.hpp \
  /usr/include/boost/lexical_cast/bad_lexical_cast.hpp \
  /usr/include/boost/lexical_cast/try_lexical_convert.hpp \
@@ -1411,13 +1478,19 @@ CMakeFiles/data-analytics-microservice.dir/src/main.cpp.o: \
  /usr/local/include/crow/version.h /usr/local/include/crow/app.h \
  /usr/include/c++/14.2.1/thread \
  /usr/include/c++/14.2.1/bits/this_thread_sleep.h \
+ /usr/include/curl/curl.h /usr/include/curl/curlver.h \
+ /usr/include/curl/system.h /usr/include/curl/easy.h \
+ /usr/include/curl/multi.h /usr/include/curl/curl.h \
+ /usr/include/curl/urlapi.h /usr/include/curl/options.h \
+ /usr/include/curl/header.h /usr/include/curl/websockets.h \
+ /usr/include/curl/mprintf.h /usr/include/json/json.h \
+ /usr/include/json/config.h /usr/include/json/allocator.h \
+ /usr/include/json/version.h /usr/include/json/json_features.h \
+ /usr/include/json/forwards.h /usr/include/json/reader.h \
+ /usr/include/json/value.h /usr/include/c++/14.2.1/stack \
+ /usr/include/c++/14.2.1/bits/stl_stack.h /usr/include/json/writer.h \
+ /home/free/data-analytics-microservice/src/data_processor.h \
  /home/free/data-analytics-microservice/src/data_fetcher.h \
- /usr/include/json/json.h /usr/include/json/config.h \
- /usr/include/json/allocator.h /usr/include/json/version.h \
- /usr/include/json/json_features.h /usr/include/json/forwards.h \
- /usr/include/json/reader.h /usr/include/json/value.h \
- /usr/include/c++/14.2.1/stack /usr/include/c++/14.2.1/bits/stl_stack.h \
- /usr/include/json/writer.h \
  /usr/include/websocketpp/config/asio_no_tls_client.hpp \
  /usr/include/websocketpp/config/core_client.hpp \
  /usr/include/websocketpp/common/platforms.hpp \

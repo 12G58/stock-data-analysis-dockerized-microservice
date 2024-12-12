@@ -245,9 +245,6 @@ PKG_CONFIG_ARGN:STRING=
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
-//The directory containing a CMake configuration file for WebSocketPP.
-WebSocketPP_DIR:PATH=/usr/lib/cmake/websocketpp
-
 //Value Computed by CMake
 data-analytics-microservice_BINARY_DIR:STATIC=/home/free/data-analytics-microservice/build
 

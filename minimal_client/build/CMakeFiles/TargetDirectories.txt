@@ -1,3 +1,0 @@
-/home/free/data-analytics-microservice/minimal_client/build/CMakeFiles/minimal_websocket_client.dir
-/home/free/data-analytics-microservice/minimal_client/build/CMakeFiles/edit_cache.dir
-/home/free/data-analytics-microservice/minimal_client/build/CMakeFiles/rebuild_cache.dir
